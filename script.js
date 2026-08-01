@@ -2,7 +2,7 @@
 
 
 // Smooth Scrolling
-document.querySelectorAll('nav a, .btn').forEach(link => {
+document.querySelectorAll('nav a[href^="#"], .btn[href^="#"]').forEach(link => {
 
     link.addEventListener('click', function(e) {
 
